@@ -104,12 +104,7 @@ const [posts, setPosts] = useState<PostData[]>([
     images: [
       '/postimage/id4image2.png',
       '/postimage/id4image3.png',
-      '/postimage/id4image4.png',
-      '/postimage/id4image5.png',
-      '/postimage/id4image6.png',
-      '/postimage/id4image7.png',
-      '/postimage/id4image8.png',
-      '/postimage/id4image9.png'
+      '/postimage/id4image4.png'
     ],
     description: {
       ko: 'AI를 활용한 홈페이지, 이미지, 영상 등 다양한 디지털 콘텐츠 제작을 통해 비용은 효율적으로 절감하고, 최상의 퀄리티로 효과적인 홍보를 지원합니다.',
@@ -444,18 +439,18 @@ return (
 
     <ShareButton language={language} />
 
-    <footer className="bg-gray-800 dark:bg-gray-800 text-white py-12 mt-12">
+    <footer className="bg-gray-800 text-white py-12 mt-12">
       <div className="max-w-4xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-bold text-lg mb-4">{translate('contact', language)}</h3>
             <div className="flex items-center space-x-2 mb-2">
               <Mail className="w-5 h-5" />
-              <p>admin@inno-curve.com</p>
+              <p>csj9909@naver.com</p>
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5" />
-              <p>010-1234-5678</p>
+              <p>010-7371-7509</p>
             </div>
           </div>
           <div>
@@ -465,16 +460,15 @@ return (
                 {translate('affiliations_1', language)}
               </p>
               <p>{translate('affiliations_2', language)}</p>
+              <p>{translate('affiliations_3', language)}</p>
             </div>
           </div>
           <div>
             <h3 className="font-bold text-lg mb-4">{translate('socialMedia', language)}</h3>
             <div className="space-y-2">
-              <Link href="https://www.instagram.com/inno_curve/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-400 transition duration-300">
+              <Link href="https://www.instagram.com/seokkjae/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-400 transition duration-300">
                 <span>Instagram</span>
               </Link>
-              <p className="text-white">Naver</p>
-              <p className="text-white">Facebook</p>
             </div>
           </div>
         </div>

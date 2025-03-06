@@ -166,7 +166,7 @@ export default function Certifications() {
             <h3 className="text-xl font-semibold text-blue-600 mb-1">
               {cert.name}
             </h3>
-            <p className="text-gray-600 dark:text-white text-sm md:text-base">
+            <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
               {cert.organization}
             </p>
           </div>
